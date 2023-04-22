@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro do Cliente</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Cinema UFC</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Filmes em Cartaz</a></li>
+                <li><a href="cadastro.html">Cadastro de Cliente</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <form action="cadastro.html" method="post">
+        
+        <h2>PREENCHA O FORMULÁRIO PARA CONCLUIR O CADASTRO</h2>
+
+        <label for="formulario">Progresso do formulário: </label>
+        <progress id="formulario" value="80" max="100">80%</progress> <br> <br>
+
+        <br> Data de nascimento: <input type="date" name="nascimento"><br>
+
+        <br> Email: <input type="email" name="email"><br>
+
+        <br> Telefone: <input type="tel" name="telefone"><br>
+
+        <br> Mês de adesão: <input type="text" name="adesao"><br>
+
+        <br> Número de filmes que pretende ver semanalmente: <br>
+        <label for="numero_de_filmes"> Quantidade: </label>
+        <input type="range" id="numero_de_filmes" name="numero_de_filmes" min="1" max="7">
+        <label for="numero_de_filmes"> 1 a 7 </label> <br>
+
+        <br> Cor de preferência para a área do cliente: <br>
+        <label for="area">Cor: </label>
+        <input type="color" id="area" name="area" value="#e90707"> <br>
+        
+
+        <br> Endereço da sua página pessoal: <input type="URL" name="endereco"><br>
+        
+        <br> Data e Horário de uso do cupom da primeira compra: <input type="datetime-local" name="cupom"><br>
+
+        <br> Preferência de gênero de filmes: <br>
+
+        <ul>
+            <li>
+                <label for="acao"> Ação: </label>
+                <input type="range" id="acao" name="acao" min="0" max="10">
+            </li>
+            <li>
+                <label for="drama"> Drama: </label>
+                <input type="range" id="drama" name="drama" min="0" max="10">
+            </li>
+            <li>
+                <label for="romance"> Romance: </label>
+                <input type="range" id="romance" name="romance" min="0" max="10">
+            </li>
+            <li>
+                <label for="comedia"> Comédia: </label>
+                <input type="range" id="comedia" name="comedia" min="0" max="10">
+            </li>
+            <li>
+                <label for="suspense"> Suspense: </label>
+                <input type="range" id="suspense" name="suspense" min="0" max="10">
+            </li>
+            <li>
+                <label for="terror"> Terror: </label>
+                <input type="range" id="terror" name="terror" min="0" max="10">
+            </li>
+            <li>
+                <label for="ficcao_cientifica"> Ficção científica: </label>
+                <input type="range" id="ficcao_cientifica" name="ficcao_cientifica" min="0" max="10">
+            </li>
+        </ul>
+
+        <br><input type="submit" value="Enviar dados"><br>
+
+    </form>
+    
+</body>
+<footer>
+    <p>Todos os diretios reservados.</p>
+</footer>
+</html>
