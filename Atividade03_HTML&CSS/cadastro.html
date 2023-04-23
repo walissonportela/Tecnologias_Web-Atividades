@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Cadastro do Cliente</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        textarea {
+            width: 25%;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .dados {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 18px 28px;
+            gap: 10px;
+
+            width: 220px;
+            height: 8px;
+            background: #FFFFFF;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Assistência Técnica de Celulares</h1>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Página Inicial </a></li>
+            <li> <a href="cadastro.html">Cadastro </a></li>
+            <li> <a href="informacoes.html">Informações </a></li> 
+            <li> <a href="revendacelular.html">Revenda de Celulares    </a></li> 
+            <li> <a href="revendaacessorio.html">Revenda de Acessórios </a></li> 
+            <li> <a href="servicosoftware.html">Serviços de Software </a></li> 
+            <li> <a href="acompanhamento.html">Acompanhamento</a></li> 
+        </ul>
+
+    </nav>
+
+    <h2>Cadastro do Cliente</h2>
+
+    <form action="cadastro.html" method="post">
+        <p>Nome:</p> <input type="text" name="nome" class="dados">
+
+        <p>Senha:</p> <input type="password" name="senha" class="dados">
+
+        <p>CPF:</p><input type="text" name="cpf" class="dados">
+
+        <p>Modelo de celular:</p>  
+        <select name="Celulares">
+            <option value="Selecione">Selecione</option>
+            <option value="Samsung">Samsung</option>
+            <option value="LG">LG</option>
+            <option value="Motorola">Motorola</option>
+            <option value="Apple">Aplle</option>
+            <option value="Xiomi">Xiomi</option>
+        </select>
+        
+
+        <p>Relato de defeito:</p> <textarea name="relato" cols="30" rows="5"></textarea>
+
+        <p>Imagem do Aparelho:</p> <input type="file" name="imagem" color="white">
+
+        <p><input type="submit" value="Enviar dados" class="button"></p>
+
+    </form>
+    
+</body>
+<footer>
+    <p style="text-align: center; margin: auto;">Todos os direitos reservados a Walisson Portela.</p>
+</footer>
+</html>
