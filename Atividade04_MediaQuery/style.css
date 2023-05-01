@@ -1,0 +1,220 @@
+/* Estilos Gerais */
+body{
+    display: inline;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: Black;
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
+
+/* Questão 1 - Estilo */
+.cores {
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .cores {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+    .cores {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .cores {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px) {
+    .cores {
+        background-color: lightyellow;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+    .cores {
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cores {
+        background-color: darkblue;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cores {
+        background-color: darkgreen;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cores {
+        background-color: darkred;
+    }
+}
+
+
+/* Questão 2 - Estilo */
+@media screen and (orientation: portrait) {
+    .paisagem {
+      display: none;
+    }
+}
+
+/* Questão 3  - Estilo */
+.linhas{
+    height: 100px;
+    width: 200px;
+    display: block;
+}
+
+.verde_claro{
+    background-color: lightgreen;
+}
+
+.roxo_claro{
+    background-color: rgb(145, 66, 145);
+}
+
+.azul_claro{
+    background-color: lightblue;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) and (orientation: portrait) {
+    .linhas div{
+        display: block;
+        height: 200px;
+        width: 200px;
+    }
+    .linhas .azul_claro, .linhas .roxo_claro, .linhas div:nth-of-type(4){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .linhas div{
+        display: block;
+        height: 100px;
+        width: 100px;
+    }
+    .linhas .roxo_claro, .linhas div:nth-of-type(4), .linhas div:nth-of-type(5){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .linhas div{
+        display: block;
+        height: 25px;
+        width: 200px;
+    }
+}
+/* Questão 4  - Estilo */
+.paises{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paises button{
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.informacao{
+    margin: 10px 50px;
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#bandeira{
+    margin: 10px 50px;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) and (orientation: portrait) {
+    .paginas_paises{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    #bandeira{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .paginas_paises{
+        flex-direction: row;
+    }
+
+    #bandeira{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .paginas_paises{
+        flex-direction: row;
+    }
+
+    #bandeira{
+        display: block;
+        margin: 20px 20px;
+    }
+    .paises button{
+        margin: 5px 10px;
+        width: 200px;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .informacao{
+        height: auto;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+
+  
+
+
+
+
+  
+  
+
