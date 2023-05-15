@@ -1,0 +1,401 @@
+/*
+     Ativiade05 -  FlexBox e Grid
+     Nome: Joaquim Walisson Portela de Sousa
+     Matrícula: 472152
+*/
+
+.home{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* Código em CSS para as 20 páginas */
+/* Vou mudando no HTML de acordo com as páginas e bloco que vou usar */
+
+/* BLOCOS */
+.bloco{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco2{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco3{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco4{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco5{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco6{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 800px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco7{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.bloco8{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco9{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    order: -1;
+}
+
+.bloco10{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    order: 0;
+}
+
+.bloco11{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    order: -1;
+}
+
+.bloco12{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    align-self: flex-start;
+}
+
+.bloco13{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    align-self: flex-end;
+}
+
+.bloco14{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.bloco15{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 400px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.bloco16{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco17{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.bloco18{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+} 
+
+/* PÁGINAS */
+.pagina1{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+}
+
+.pagina2{
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+}
+
+.pagina3{
+    display: flex;
+    justify-content: end;
+    align-content: flex-end;
+    align-items: end;
+    flex-direction: row-reverse;
+}
+
+.pagina4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina5{
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pagina6{
+    display: flex;
+    justify-content: end;
+    align-content: flex-start;
+    align-items: start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.pagina7{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina8{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+
+.pagina9{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.pagina10{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.pagina11{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.pagina12{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.pagina13{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.pagina14{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.pagina15{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-content: start;
+    flex-direction: row;
+}
+
+.pagina16{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina17{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina18{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina19{
+    height: 900px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pagina20{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
